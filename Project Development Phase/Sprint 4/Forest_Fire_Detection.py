@@ -7,6 +7,7 @@ fire_cascade = cv2.CascadeClassifier('train/fire_detection.xml')
 
 vid = cv2.VideoCapture(0) 
 runOnce = False 
+Font = cv2.FONT_HERSHEY_SIMPLEX
 
 def play_alarm_sound_function():
     playsound.playsound('music/fire_Alarm.mp3',True) 
@@ -40,6 +41,7 @@ while(True):
         cv2.rectangle(frame,(x-20,y-20),(x+w+20,y+h+20),(0,255,0),2)
         roi_gray = gray[y:y+h, x:x+w]
         roi_color = frame[y:y+h, x:x+w]
+	cv2.putText(frame,"Fire",(x,w),Font,2,(0,0,225),2,cv2.LINE_AA)
 
         print("Fire alarm initiated")
         threading.Thread(target=play_alarm_sound_function).start()  # To call alarm thread
