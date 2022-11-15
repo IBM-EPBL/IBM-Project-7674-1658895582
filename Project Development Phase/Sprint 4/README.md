@@ -4,6 +4,8 @@
 
 ![Fire_Detection](https://user-images.githubusercontent.com/104116597/201558222-bbf8779f-e094-4b66-b199-b5aec92cc54e.png)
 
+![Email_sending](https://user-images.githubusercontent.com/104116597/201967941-c304d2f2-f628-4965-acfc-e13d7057f72c.png)
+
 # mail Sending
 
 
