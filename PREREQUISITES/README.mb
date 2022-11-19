@@ -1,1 +1,23 @@
+# installing 
+Type “pip install numpy” and click enter.
+
+Type “pip install pandas” and click enter.
+
+Type “pip install matplotlib” and click enter.
+
+Type “pip install scikit-learn” and click enter.
+
+Type "pip install tensorflow==1.14.0” and click enter.
+
+Type "pip install keras=2.2.4” and click enter.
+
+Type "pip install opencv-python” and click enter.
+
+Type “pip install Flask” and click enter.
+
+Type "pip install threaded" and Click enter.
+
+Type "pip install playsound"and click enter.
+
+Type "pip install twilio" and click enter.
 
